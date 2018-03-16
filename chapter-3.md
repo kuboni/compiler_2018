@@ -19,6 +19,10 @@ lexer , lexical analyzer...
   * catenation : $$r_1 r_2$$
   * alternation : $$r_1 + r_2$$
   * kleene closure : $$r_1$$\*
+* formal definition
+  * empty set Φ
+  * empty string λ
+  * additional operators : +
 
 
 
