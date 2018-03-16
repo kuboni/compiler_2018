@@ -1,6 +1,6 @@
 3/16
 
-Chapter 2 
+Chapter 2
 
 #### Scanning
 
@@ -15,31 +15,22 @@ string \( input \) -&gt; scanner -&gt; token \( output \)
 
 * Look ahead \( important !! \)
 
-* abstract syntax parse tree\( AST \)
 * Technique
   * Recursive descent
   * Mutual Recursion
     * ![](/assets/mutual recursion.png)
 
+* abstract syntax parse tree\( AST \)
 
+#### Semantic Analysis
 
+* Symbol table
+* Type Checking
+  * type heirachy
 
+#### Code Generation
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* VISIT\(\) - traverse parsing tree
+* 
 
 
