@@ -21,11 +21,9 @@ parser
 
 ---
 
-#### LL\(\[num\]\)
+#### LL\(\[lookahead-num\]\)
 
-#### LR\(\[num\]\)
-
- 
+#### LR\(\[lookahead-num\]\)
 
 
 
