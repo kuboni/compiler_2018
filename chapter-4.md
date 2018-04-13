@@ -2,13 +2,15 @@ Extended Grammar
 
 ---
 
-#### BNF
+BNF
 
 * non-terminal -&gt; 0 or grammar symbols
 * optional symbol
-  *  A→α \[ X1 . . .Xn \] β
+  * A→α \[ X1 . . .Xn \] β
 * repeated symbol
   * A→α { X1 . . .Xn } β
+
+---
 
 
 
