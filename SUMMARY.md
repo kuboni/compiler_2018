@@ -5,5 +5,4 @@
 * [Chapter 3](chapter-3.md)
 * [Chapter 4](chapter-4.md)
   * [parser and recognizer](chapter-4/parser-and-recognizer.md)
-  * [LL and LR parser](chapter-4/ll-and-lr-parser.md)
 

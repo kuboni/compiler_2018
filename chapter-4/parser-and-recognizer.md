@@ -19,5 +19,13 @@ parser
 * leaves -&gt; root
 * postorder traversal
 
+---
+
+#### LL\(\[num\]\)
+
+#### LR\(\[num\]\)
+
+ 
+
 
 
