@@ -13,10 +13,10 @@ Forms
 * Recursive-descent parser
 * Table-driven LL parser
 
-* 
-Derivation vs Parsing
+* Derivation vs Parsing
 
 * 兩者是反向的
+
   * Derivation 是由 grammar 長出樹
   * Parsing 是由 input 找出符合 grammar 的樹
 
@@ -59,9 +59,24 @@ Predict set for LL\(1\)
 假設 A-&gt;a\|b 為 grammar G的一個production
 
 1. First\(a\) 不可以含有任何First\(b\)之terminal
+   1. predict set 中的元素不可有交集
 2. a,b至少有一可以生出λ
 3. * 如果 b-&gt;\*λ ，First\(a\)不可包含任何First\(A\)之terminal
    * 如果 a-&gt;\*λ ，First\(b\)不可包含任何First\(B\)之terminal
+
+> function isLL1\(G\) return Boolean
+>
+>         foreach A belongsto N do
+>
+>                Predict\_set  &lt;-  φ
+>
+>         foreach p belongsto Production\(A\) do
+>
+>                 if Predict\(p\) ∩ Predict\_set ≠ φ
+>
+>                 then return false
+>
+>                 Predict_set = Predict\(p\) ∪ Predict\_set_
 
 
 
