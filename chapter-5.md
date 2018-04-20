@@ -64,23 +64,7 @@ Predict set for LL\(1\)
 3. * 如果 b-&gt;\*λ ，First\(a\)不可包含任何First\(A\)之terminal
    * 如果 a-&gt;\*λ ，First\(b\)不可包含任何First\(B\)之terminal
 
-> function isLL1\(G\) return Boolean
->
-> ```
->     foreach A belongsto N do
->
->            Predict\_set  &lt;-  φ
->
->     foreach p belongsto Production\(A\) do
->
->             if Predict\(p\) ∩ Predict\_set ≠ φ
->
->             then return false
->
->             Predict_set = Predict\(p\) ∪ Predict\_set_
->     return true
-> End
-> ```
+* ![](/assets/isLL1.png)![](/assets/predict_set.png)
 
 
 
