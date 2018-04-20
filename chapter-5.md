@@ -66,17 +66,21 @@ Predict set for LL\(1\)
 
 > function isLL1\(G\) return Boolean
 >
->         foreach A belongsto N do
+> ```
+>     foreach A belongsto N do
 >
->                Predict\_set  &lt;-  φ
+>            Predict\_set  &lt;-  φ
 >
->         foreach p belongsto Production\(A\) do
+>     foreach p belongsto Production\(A\) do
 >
->                 if Predict\(p\) ∩ Predict\_set ≠ φ
+>             if Predict\(p\) ∩ Predict\_set ≠ φ
 >
->                 then return false
+>             then return false
 >
->                 Predict_set = Predict\(p\) ∪ Predict\_set_
+>             Predict_set = Predict\(p\) ∪ Predict\_set_
+>     return true
+> End
+> ```
 
 
 
