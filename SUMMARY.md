@@ -7,4 +7,5 @@
   * [parser and recognizer](chapter-4/parser-and-recognizer.md)
   * [First and Follow](chapter-4/first-and-follow.md)
 * [Chapter 5](chapter-5.md)
+  * [Recursive-descent parsing](chapter-5/recursive-descent-parsing.md)
 
