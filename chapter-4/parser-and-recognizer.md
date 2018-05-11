@@ -1,29 +1,24 @@
+# parser and recognizer
+
 parser
 
 -
 
 * LL parser
-
 * LR parser
 
----
-
-#### Top-Down Parser
+## Top-Down Parser
 
 * root -&gt; leaf
 * depth-first
 * preorder traversal
 
-#### Bottom-Up Parser
+## Bottom-Up Parser
 
 * leaves -&gt; root
 * postorder traversal
 
----
+## LL\(\[lookahead-num\]\)
 
-#### LL\(\[lookahead-num\]\)
-
-#### LR\(\[lookahead-num\]\)
-
-
+## LR\(\[lookahead-num\]\)
 

@@ -1,6 +1,6 @@
-Extended Grammar
+# Chapter 4
 
----
+Extended Grammar
 
 BNF
 
@@ -9,8 +9,4 @@ BNF
   * A→α \[ X1 . . .Xn \] β
 * repeated symbol
   * A→α { X1 . . .Xn } β
-
----
-
-
 

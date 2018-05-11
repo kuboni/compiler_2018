@@ -1,4 +1,4 @@
-### Recursive-descent parsing
+# Recursive-descent parsing
 
 input: a sequence of tokens -&gt; stream ts
 
@@ -9,13 +9,11 @@ ts:
 * advance
   * 查看下一個token，但pointer移至下一個token
 
-![](/assets/recursive-descent.png)
+![](../.gitbook/assets/recursive-descent.png)
 
 * A =&gt; λ
   * return immediately
 * Otherwise
   * Xi is terminal symbol
   * Xi is non-terminal symbol
-
-
 

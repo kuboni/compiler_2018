@@ -1,4 +1,4 @@
-### Table-Driven LL\(1\) Parsers
+# Table-Driven LL\(1\) Parsers
 
 why
 
@@ -7,15 +7,11 @@ why
 
 overall
 
-![](/assets/table_driven_ll1.png)
+![](../.gitbook/assets/table_driven_ll1.png)
 
-
-
-#### LL\(1\) Parse table
+## LL\(1\) Parse table
 
 * 2D
   * row : grammar non-terminal
   * column : grammar terminal
 * 
-
-

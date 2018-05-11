@@ -1,6 +1,8 @@
+# Chapter 3
+
 3/16
 
-# Scanning
+## Scanning
 
 lexer , lexical analyzer...
 
@@ -16,13 +18,11 @@ lexer , lexical analyzer...
   * Empty / Null string \(λ\)
   * Meta-character
 * operation
-  * catenation : $$r_1 r_2$$
-  * alternation : $$r_1 + r_2$$
-  * kleene closure : $$r_1$$\*
+  * catenation : 
+  * alternation : 
+  * kleene closure : \*
 * formal definition
   * empty set Φ
   * empty string λ
   * additional operators : +
-
-
 
