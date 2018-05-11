@@ -19,5 +19,20 @@ needles for parsing
 
 ![shift-reduce](.gitbook/assets/image.png)
 
+### shift-reduce parsing technique
+
+* parse-table
+* TOS\(\)
+* peek\(\)
+
+## LR\(k\) Parsers
+
+### LR\(0\) table construction
+
+#### item & bookmark
+
+* item = production + bookmark
+* bookmark - progress bar
+
 
 
