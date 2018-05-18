@@ -57,3 +57,26 @@ function Closure(State) return Set
 endfu
 ```
 
+#### advance dot
+
+* AdvanceDot\(s, X\) = s'
+* 下一個state s'
+
+#### compute goto
+
+{% code-tabs %}
+{% code-tabs-item title="ComputeGoto" %}
+```text
+function ComputeGoto(State, s)
+    closed <- Closure(s)
+    foreach X in (N and Sigma) do
+        RelevantItems <- AdvanceDot(closed, X)
+        if RelevantItmes != Nil
+        then 
+            Table[s][X] = shift AddState(State, RelevantItems)
+endfu
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
