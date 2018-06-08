@@ -11,7 +11,8 @@
   * [Table-Driven LL\(1\) Parsers](chapter-5/table-driven-ll-1-parsers.md)
 * [Chapter 6](chapter-6.md)
 * [Chapter 8](untitled.md)
-* 作業筆記
+* [Chapter 10](chapter-10.md)
+* [作業筆記](zuo/README.md)
   * [HW2](zuo/hw2/README.md)
     * [HW2 - Yacc 概覽](zuo/hw2/hw2-yacc-gai.md)
 
